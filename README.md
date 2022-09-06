@@ -24,3 +24,14 @@ docker plugin install grafana/loki-docker-driver:latest --alias loki --grant-all
 - opentelemetry-distro==0.33b0
 - opentelemetry-instrumentation-flask==0.30b1
 - opentelemetry-instrumentation-requests==0.30b1
+
+
+## Grafana Loki & Tempo configuration
+
+__Loki datasource__
+
+![Alt text](images/loki_datasource.png "loki")
+
+__Tempo datasource__
+
+ [Alt text](images/tempo_datasource.png "tempo")
