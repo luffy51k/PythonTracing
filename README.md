@@ -34,4 +34,4 @@ __Loki datasource__
 
 __Tempo datasource__
 
- [Alt text](images/tempo_datasource.png "tempo")
+ ![Alt text](images/tempo_datasource.png "tempo")
