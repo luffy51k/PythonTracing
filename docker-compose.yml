@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  trace-app:
+    build: .
+    volumes:
+      - .:/usr/src/app
+    env_file:
+      - ./.env
+    ports:
+      - 5001:5000
+    environment:
+      - OTEL_PYTHON_LOG_CORRELATION=true
+    logging:
+      driver: loki
+      options:
+        loki-url: https://[OTLP_ENDPOINT_USER]:[OTLP_ENDPOINT_PASSWORD]@[OTLP_ENDPOINT_DOMAIN]/loki/api/v1/push

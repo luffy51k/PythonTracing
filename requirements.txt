@@ -1,0 +1,12 @@
+flask==2.2.2
+flask_sqlalchemy==2.5.1
+itsdangerous==2.1.2
+opentelemetry-exporter-otlp
+opentelemetry-instrumentation-logging
+opentelemetry-instrumentation
+opentelemetry-distro
+Werkzeug~=2.2.2
+opentelemetry-instrumentation-flask==0.30b1
+opentelemetry-instrumentation-requests==0.30b1
+
+python-dotenv
